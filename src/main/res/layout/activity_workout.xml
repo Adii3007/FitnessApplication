@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#000000"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Start Your Workout"
+        android:textAlignment="center"
+        android:textColor="#E60000"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:padding="20sp"
+        android:fontFamily="sans-serif-black" />
+
+    <ImageButton
+        android:id="@+id/buttonChest"
+        android:layout_width="307dp"
+        android:layout_height="172dp"
+        android:layout_marginBottom="16dp"
+        android:contentDescription="Chest"
+        android:src="@drawable/chest_image" />
+
+    <ImageButton
+        android:id="@+id/buttonBicep"
+        android:layout_width="305dp"
+        android:layout_height="173dp"
+        android:layout_marginBottom="16dp"
+        android:contentDescription="Bicep"
+        android:src="@drawable/bicep_image" />
+
+    <ImageButton
+        android:id="@+id/buttonShoulder"
+        android:layout_width="305dp"
+        android:layout_height="176dp"
+        android:contentDescription="Shoulder"
+        android:src="@drawable/shoulder_image" />
+
+</LinearLayout>
